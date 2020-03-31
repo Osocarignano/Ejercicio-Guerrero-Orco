@@ -74,3 +74,5 @@ class Paladin (Heroe):
 
         return "{} ha recibido {} de daño".format(Orco.__class__.__name__, danio)
 
+    
+
