@@ -68,8 +68,8 @@ class Paladin (Heroe):
             Orco.vida -= 1
             danio = 1
         else:
-            Orco.vida -= self.ataque + (0.01 * self.desgaste) - Orco.defensa
-            danio = self.ataque + (0.01 * self.desgaste) - Orco.defensa
+            Orco.vida -= self.ataque + (0.1 * self.desgaste) - Orco.defensa
+            danio = self.ataque + (0.1 * self.desgaste) - Orco.defensa
         if self.desgaste > 0:
             self.desgaste -= 1
 
