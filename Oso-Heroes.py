@@ -1,4 +1,3 @@
-
 class Orco:
     vida= float,
     defensa = int,
